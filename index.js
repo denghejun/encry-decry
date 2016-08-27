@@ -20,13 +20,14 @@ console.dir({data:decrted.data.toString('utf8'),password:decrted.password}, DIR_
 
 ////////////////////////// Text Test ///////////////////////////////////////
 console.log('////////////////////////// Buffer Test /////////////////////////////////////// ');
+const  pwd='denghejun'; // 可以自定义密码
 const bf1 = '一段绝密文本!';
 
 // 1. create a buffer cihper.
 const cipher1 =  new BufferCryptor();
 
 // 2. encry
-const encrted1 = cipher.encry(bf1);
+const encrted1 = cipher.encry(bf1,pwd);
 console.dir(encrted1, DIR_OPTION);
 
 // 3. decry
