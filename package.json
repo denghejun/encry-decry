@@ -1,0 +1,24 @@
+{
+  "name": "encry-decry",
+  "version": "1.0.0",
+  "description": "data encry and decry in node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/denghejun/encry-decry.git"
+  },
+  "keywords": [
+    "encry",
+    "decry",
+    "node"
+  ],
+  "author": "leo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/denghejun/encry-decry/issues"
+  },
+  "homepage": "https://github.com/denghejun/encry-decry#readme"
+}
